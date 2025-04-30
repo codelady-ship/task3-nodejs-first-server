@@ -26,16 +26,16 @@ const usersGetController = (req,res)=>{
         }
         const content = JSON.parse( readFileSync ("./db.json"))
         content.users.push(data)
-        const DatatoJson = ({"users": content.users},null,2)
+        const DatatoJson = JSON.stringify({"users": content.users},null,2)
 
-        writeFile("db.json",DatatoJson,(err)={
-
-        const msj = {status:201,message:"user added succesfully"}
-        res.write(JSON.stringify(msj))
-      })
-
-        
+        writeFile("db.json", DatatoJson, (err) => { 
+            const msj = { status: 201, message: "user added succesfully" };
+            res.write(JSON.stringify(msj));
+            res.end(); 
+        });
+    } else {
+        res.end();
     }
-    res.end();
-}
-export default usersGetController
+};
+
+export default usersGetController;

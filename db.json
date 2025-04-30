@@ -1,5 +1,47 @@
-{"users" : [
-    { "id": "1"," user": "hello" },
-    { "id": "2", "user": "hello" }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "ad": "Ali",
+      "soyad": "Məmmədov",
+      "telefon": "+994501112233",
+      "email": "ali.mammadov@example.com"
+    },
+    {
+      "id": 2,
+      "ad": "Nigar",
+      "soyad": "Əliyeva",
+      "telefon": "+994552223344",
+      "email": "nigar.aliyeva@example.com"
+    },
+    {
+      "id": 3,
+      "ad": "Kamran",
+      "soyad": "Hüseynov",
+      "telefon": "+994701234567",
+      "email": "kamran.huseynov@example.com"
+    },
+    {
+      "id": 4,
+      "ad": "Aysel",
+      "soyad": "Quliyeva",
+      "telefon": "+994553335577",
+      "email": "aysel.quliyeva@example.com"
+    },
+    {
+      "id": 5,
+      "ad": "Elvin",
+      "soyad": "Rzayev",
+      "telefon": "+994702223355",
+      "email": "elvin.rzayev@example.com"
+    },
+    {
+      "id": 5,
+      "user": "sdfghj"
+    },
+    {
+      "id": 5,
+      "user": "sdfghj"
+    }
+  ]
 }
